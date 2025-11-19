@@ -17,7 +17,7 @@ export default function BenefitsSection() {
             {/* Benefit 1 */}
             <div className="text-left">
               <div className="flex items-start gap-4 mb-3">
-                <div className="w-5 h-5 bg-stone-500 rotate-45 mt-1 flex-shrink-0" />
+                <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
                 <h3 className="text-white text-2xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight">No learning curve</h3>
               </div>
               <p className="text-white text-base font-normal font-['Onest'] leading-relaxed pl-9">
@@ -28,7 +28,7 @@ export default function BenefitsSection() {
             {/* Benefit 2 */}
             <div className="text-left">
               <div className="flex items-start gap-4 mb-3">
-                <div className="w-5 h-5 bg-stone-500 rotate-45 mt-1 flex-shrink-0" />
+                <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
                 <h3 className="text-white text-2xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight">Your brand, your clients</h3>
               </div>
               <p className="text-white text-base font-normal font-['Onest'] leading-relaxed pl-9">
@@ -42,7 +42,7 @@ export default function BenefitsSection() {
             {/* Benefit 3 */}
             <div className="text-left">
               <div className="flex items-start gap-4 mb-3">
-                <div className="w-5 h-5 bg-stone-500 rotate-45 mt-1 flex-shrink-0" />
+                <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
                 <h3 className="text-white text-2xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight">Real money</h3>
               </div>
               <p className="text-white text-base font-normal font-['Onest'] leading-relaxed pl-9">
@@ -53,7 +53,7 @@ export default function BenefitsSection() {
             {/* Benefit 4 */}
             <div className="text-left">
               <div className="flex items-start gap-4 mb-3">
-                <div className="w-5 h-5 bg-stone-500 rotate-45 mt-1 flex-shrink-0" />
+                <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
                 <h3 className="text-white text-2xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight">Models love it too</h3>
               </div>
               <p className="text-white text-base font-normal font-['Onest'] leading-relaxed pl-9">

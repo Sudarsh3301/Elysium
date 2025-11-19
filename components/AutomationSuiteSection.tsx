@@ -3,7 +3,7 @@ export default function AutomationSuiteSection() {
     <section className="relative w-full py-32 bg-zinc-100">
       <div className="max-w-[1440px] mx-auto px-8">
         {/* Large Background Rectangle */}
-        <div className="absolute left-1/2 -translate-x-1/2 w-[calc(100%-80px)] max-w-[1360px] h-full top-0 bg-stone-300 rounded-tl-[120px] rounded-br-[120px] pointer-events-none" />
+        <div className="absolute left-1/2 -translate-x-1/2 w-[calc(100%-80px)] max-w-[1360px] h-full top-0 bg-automationBg rounded-tl-[120px] rounded-br-[120px] pointer-events-none" />
 
         {/* Section Header */}
         <div className="relative z-10 text-center mb-24">
@@ -46,15 +46,15 @@ export default function AutomationSuiteSection() {
 
             <ul className="space-y-4 mb-8">
               <li className="flex items-start gap-3">
-                <div className="w-5 h-5 mt-0.5 bg-gradient-to-br from-stone-400 via-stone-400 to-rose-100 rounded-sm flex-shrink-0" />
+                <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
                 <span className="text-stone-900 text-base font-normal font-['Onest'] leading-relaxed">Generate inquiry-matching visual pitchback material using selected model portfolios</span>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-5 h-5 mt-0.5 bg-gradient-to-br from-stone-400 via-stone-400 to-rose-100 rounded-sm flex-shrink-0" />
+                <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
                 <span className="text-stone-900 text-base font-normal font-['Onest'] leading-relaxed">Instantly smart-match client casting inquiries with suitable talent</span>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-5 h-5 mt-0.5 bg-gradient-to-br from-stone-400 via-stone-400 to-rose-100 rounded-sm flex-shrink-0" />
+                <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
                 <span className="text-stone-900 text-base font-normal font-['Onest'] leading-relaxed">Create and send promotional email content based on roster activity and real-time availability</span>
               </li>
             </ul>
@@ -78,15 +78,15 @@ export default function AutomationSuiteSection() {
 
             <ul className="space-y-4 mb-8">
               <li className="flex items-start gap-3">
-                <div className="w-5 h-5 mt-0.5 bg-gradient-to-br from-stone-400 via-stone-400 to-rose-100 rounded-sm flex-shrink-0" />
+                <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
                 <span className="text-stone-900 text-base font-normal font-['Onest'] leading-relaxed">AI-powered online and cross-agency model scouting</span>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-5 h-5 mt-0.5 bg-gradient-to-br from-stone-400 via-stone-400 to-rose-100 rounded-sm flex-shrink-0" />
+                <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
                 <span className="text-stone-900 text-base font-normal font-['Onest'] leading-relaxed">Track rising stars, fashion trend data by location, and competitive industry insights</span>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-5 h-5 mt-0.5 bg-gradient-to-br from-stone-400 via-stone-400 to-rose-100 rounded-sm flex-shrink-0" />
+                <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
                 <span className="text-stone-900 text-base font-normal font-['Onest'] leading-relaxed">Receive reports on emerging talent and market movers based on quantifiable online exposure, social media movement, and brand work</span>
               </li>
             </ul>
@@ -130,15 +130,15 @@ export default function AutomationSuiteSection() {
 
             <ul className="space-y-4 mb-8">
               <li className="flex items-start gap-3">
-                <div className="w-5 h-5 mt-0.5 bg-gradient-to-br from-stone-400 via-stone-400 to-rose-100 rounded-sm flex-shrink-0" />
+                <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
                 <span className="text-stone-900 text-base font-normal font-['Onest'] leading-relaxed">Effortlessly compile newsletters featuring model work, press, and campaigns using AI + cloud file integration</span>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-5 h-5 mt-0.5 bg-gradient-to-br from-stone-400 via-stone-400 to-rose-100 rounded-sm flex-shrink-0" />
+                <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
                 <span className="text-stone-900 text-base font-normal font-['Onest'] leading-relaxed">Highlight new faces, fashion trends and written agency updates</span>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-5 h-5 mt-0.5 bg-gradient-to-br from-stone-400 via-stone-400 to-rose-100 rounded-sm flex-shrink-0" />
+                <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
                 <span className="text-stone-900 text-base font-normal font-['Onest'] leading-relaxed">Offers AI-powered visual editorial and social media drafts to elevate your agency's narrative</span>
               </li>
             </ul>
@@ -162,15 +162,15 @@ export default function AutomationSuiteSection() {
 
             <ul className="space-y-4 mb-8">
               <li className="flex items-start gap-3">
-                <div className="w-5 h-5 mt-0.5 bg-gradient-to-br from-stone-400 via-stone-400 to-rose-100 rounded-sm flex-shrink-0" />
+                <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
                 <span className="text-stone-900 text-base font-normal font-['Onest'] leading-relaxed">Track in-depth model, agent, and agency performance metrics in real time</span>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-5 h-5 mt-0.5 bg-gradient-to-br from-stone-400 via-stone-400 to-rose-100 rounded-sm flex-shrink-0" />
+                <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
                 <span className="text-stone-900 text-base font-normal font-['Onest'] leading-relaxed">Uncover growth patterns, revenue insights, client relationship trends, and system optimization metrics</span>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-5 h-5 mt-0.5 bg-gradient-to-br from-stone-400 via-stone-400 to-rose-100 rounded-sm flex-shrink-0" />
+                <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
                 <span className="text-stone-900 text-base font-normal font-['Onest'] leading-relaxed">Predict future booking and performance opportunities before they happen</span>
               </li>
             </ul>
