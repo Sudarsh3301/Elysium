@@ -13,20 +13,20 @@ export default function PartnershipSection() {
 
           <ul className="space-y-6">
             <li className="flex items-start gap-3">
-              <div className="w-5 h-5 mt-0.5 bg-gradient-to-br from-stone-400 via-stone-400 to-rose-100 rounded-sm flex-shrink-0" />
-              <span className="text-neutral-700 text-base font-normal font-['Onest'] leading-6">Our systems optimize without interference — business runs as usual, just better.</span>
+              <img src="/ytick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+              <span className="text-neutral-700 text-base font-normal font-['Onest'] leading-relaxed">Our systems optimize without interference — business runs as usual, just better.</span>
             </li>
             <li className="flex items-start gap-3">
-              <div className="w-5 h-5 mt-0.5 bg-gradient-to-br from-stone-400 via-stone-400 to-rose-100 rounded-sm flex-shrink-0" />
-              <span className="text-neutral-700 text-base font-normal font-['Onest'] leading-6">Your relationships are protected, our tools simply amplify them.</span>
+              <img src="/ytick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+              <span className="text-neutral-700 text-base font-normal font-['Onest'] leading-relaxed">Your relationships are protected, our tools simply amplify them.</span>
             </li>
             <li className="flex items-start gap-3">
-              <div className="w-5 h-5 mt-0.5 bg-gradient-to-br from-stone-400 via-stone-400 to-rose-100 rounded-sm flex-shrink-0" />
-              <span className="text-neutral-700 text-base font-normal font-['Onest'] leading-6">You continue to decide brand rates and which bookings to accept.</span>
+              <img src="/ytick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+              <span className="text-neutral-700 text-base font-normal font-['Onest'] leading-relaxed">You continue to decide brand rates and which bookings to accept.</span>
             </li>
             <li className="flex items-start gap-3">
-              <div className="w-5 h-5 mt-0.5 bg-gradient-to-br from-stone-400 via-stone-400 to-rose-100 rounded-sm flex-shrink-0" />
-              <span className="text-neutral-700 text-base font-normal font-['Onest'] leading-6">We never work directly with your models — everything flows through you.</span>
+              <img src="/ytick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+              <span className="text-neutral-700 text-base font-normal font-['Onest'] leading-relaxed">We never work directly with your models — everything flows through you.</span>
             </li>
           </ul>
         </div>

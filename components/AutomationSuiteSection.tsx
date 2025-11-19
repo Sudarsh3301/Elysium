@@ -34,7 +34,7 @@ export default function AutomationSuiteSection() {
             <div className="absolute w-full h-32 -left-4 -top-10 rounded-tl-[110px] rounded-br-[110px] border border-white mix-blend-difference" />
             <div className="absolute w-full h-full left-6 top-6 rounded-tl-[80px] rounded-br-[80px] border border-white mix-blend-difference" />
             <Image
-              src="/athena.png"
+              src="/Athena.png"
               alt="Athena AI Agent"
               width={600}
               height={600}
@@ -126,7 +126,7 @@ export default function AutomationSuiteSection() {
             <div className="absolute w-full h-32 -left-4 -top-10 rounded-tl-[110px] rounded-br-[110px] border border-white mix-blend-difference" />
             <div className="absolute w-full h-full left-6 top-6 rounded-tl-[80px] rounded-br-[80px] border border-white mix-blend-difference" />
             <Image
-              src="/aphrodite.png"
+              src="/Aphrodite.png"
               alt="Aphrodites AI Agent"
               width={600}
               height={600}
@@ -201,7 +201,7 @@ export default function AutomationSuiteSection() {
             <div className="absolute w-full h-32 -right-4 -top-10 rounded-tr-[110px] rounded-bl-[110px] border border-white mix-blend-difference" />
             <div className="absolute w-full h-full right-6 top-6 rounded-tr-[80px] rounded-bl-[80px] border border-white mix-blend-difference" />
             <Image
-              src="/artemis.png"
+              src="/Artemis.png"
               alt="Artemis AI Agent"
               width={600}
               height={600}
