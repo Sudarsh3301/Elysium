@@ -1,9 +1,11 @@
+import Image from 'next/image';
+
 export default function AutomationSuiteSection() {
   return (
     <section className="relative w-full py-32 bg-zinc-100">
       <div className="max-w-[1440px] mx-auto px-8">
-        {/* Large Background Rectangle */}
-        <div className="absolute left-1/2 -translate-x-1/2 w-[calc(100%-80px)] max-w-[1360px] h-full top-0 bg-automationBg rounded-tl-[120px] rounded-br-[120px] pointer-events-none" />
+        {/* Large Background Rectangle - Made Wider */}
+        <div className="absolute left-1/2 -translate-x-1/2 w-[calc(100%-40px)] max-w-[1400px] h-full top-0 bg-automationBg rounded-tl-[120px] rounded-br-[120px] pointer-events-none" />
 
         {/* Section Header */}
         <div className="relative z-10 text-center mb-24">
@@ -31,10 +33,14 @@ export default function AutomationSuiteSection() {
           <div className="relative">
             <div className="absolute w-full h-32 -left-4 -top-10 rounded-tl-[110px] rounded-br-[110px] border border-white mix-blend-difference" />
             <div className="absolute w-full h-full left-6 top-6 rounded-tl-[80px] rounded-br-[80px] border border-white mix-blend-difference" />
-            <img
+            <Image
               src="/athena.png"
               alt="Athena AI Agent"
+              width={600}
+              height={600}
               className="w-full aspect-square rounded-tl-[100px] rounded-br-[100px] object-cover"
+              loading="lazy"
+              quality={85}
             />
           </div>
 
@@ -102,10 +108,14 @@ export default function AutomationSuiteSection() {
           <div className="relative">
             <div className="absolute w-full h-32 -right-4 -top-10 rounded-tr-[110px] rounded-bl-[110px] border border-white mix-blend-difference" />
             <div className="absolute w-full h-full right-6 top-6 rounded-tr-[80px] rounded-bl-[80px] border border-white mix-blend-difference" />
-            <img
+            <Image
               src="/Apollo.png"
               alt="Apollo AI Agent"
+              width={600}
+              height={600}
               className="w-full aspect-square rounded-tr-[100px] rounded-bl-[100px] object-cover"
+              loading="lazy"
+              quality={85}
             />
           </div>
         </div>
@@ -115,10 +125,14 @@ export default function AutomationSuiteSection() {
           <div className="relative">
             <div className="absolute w-full h-32 -left-4 -top-10 rounded-tl-[110px] rounded-br-[110px] border border-white mix-blend-difference" />
             <div className="absolute w-full h-full left-6 top-6 rounded-tl-[80px] rounded-br-[80px] border border-white mix-blend-difference" />
-            <img
+            <Image
               src="/aphrodite.png"
               alt="Aphrodites AI Agent"
+              width={600}
+              height={600}
               className="w-full aspect-square rounded-tl-[100px] rounded-br-[100px] object-cover"
+              loading="lazy"
+              quality={85}
             />
           </div>
 
@@ -186,10 +200,14 @@ export default function AutomationSuiteSection() {
           <div className="relative">
             <div className="absolute w-full h-32 -right-4 -top-10 rounded-tr-[110px] rounded-bl-[110px] border border-white mix-blend-difference" />
             <div className="absolute w-full h-full right-6 top-6 rounded-tr-[80px] rounded-bl-[80px] border border-white mix-blend-difference" />
-            <img
+            <Image
               src="/artemis.png"
               alt="Artemis AI Agent"
+              width={600}
+              height={600}
               className="w-full aspect-square rounded-tr-[100px] rounded-bl-[100px] object-cover"
+              loading="lazy"
+              quality={85}
             />
           </div>
         </div>

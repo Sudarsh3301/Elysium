@@ -1,12 +1,18 @@
+import Image from 'next/image';
+
 export default function HeroSection() {
   return (
     <section className="relative w-full min-h-screen bg-zinc-100 overflow-hidden flex items-center justify-center">
       {/* Cloud Background Image */}
       <div className="absolute inset-0 w-full h-full">
-        <img
+        <Image
           src="/99ecdfc1ca19abce9e30036f40aabc08fa126871.png"
           alt="Heavenly clouds pathway"
-          className="w-full h-full object-cover object-center"
+          fill
+          className="object-cover object-center"
+          priority
+          quality={90}
+          sizes="100vw"
         />
       </div>
 
@@ -17,8 +23,8 @@ export default function HeroSection() {
       <div className="absolute top-0 left-0 right-0 z-20">
         <div className="max-w-[1440px] mx-auto px-8 py-8 flex items-center justify-between">
           {/* Logo */}
-          <div className="w-28 h-20">
-            <img src="/logo.png" alt="Elysium Logo" className="w-full h-full" />
+          <div className="w-28 h-20 relative">
+            <Image src="/logo.png" alt="Elysium Logo" fill className="object-contain" priority sizes="112px" />
           </div>
 
           {/* Join Our Realm Button */}
@@ -66,7 +72,9 @@ export default function HeroSection() {
 
           {/* Decorative Wings Icon */}
           <div className="flex justify-center">
-            <img src="/logo.png" alt="Decorative wings" className="w-20 h-16" />
+            <div className="w-20 h-16 relative">
+              <Image src="/logo.png" alt="Decorative wings" fill className="object-contain" loading="lazy" sizes="80px" />
+            </div>
           </div>
         </div>
       </div>

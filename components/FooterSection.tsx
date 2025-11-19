@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function FooterSection() {
   return (
     <footer className="relative w-full bg-stone-900 py-20">
@@ -6,8 +8,8 @@ export default function FooterSection() {
         <div className="flex justify-between items-start mb-16">
           {/* Logo and Tagline */}
           <div className="max-w-[400px]">
-            <div className="w-28 h-20 mb-6">
-              <img src="/gld.png" alt="Elysium Logo" className="w-full h-full brightness-0 invert" />
+            <div className="w-28 h-20 mb-6 relative">
+              <Image src="/gld.png" alt="Elysium Logo" fill className="object-contain brightness-0 invert" loading="lazy" sizes="112px" />
             </div>
             <p className="text-stone-400 text-sm font-normal font-['Onest'] leading-6">
               Inspired by the Gods. Engineered for Agencies.

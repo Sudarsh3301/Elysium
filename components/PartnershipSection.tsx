@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function PartnershipSection() {
   return (
     <section className="relative w-full py-24 bg-zinc-100">
@@ -36,10 +38,14 @@ export default function PartnershipSection() {
           <div className="absolute w-full h-full right-6 top-6 rounded-tl-[80px] rounded-br-[80px] border border-white mix-blend-difference" />
 
           {/* Main hero room image */}
-          <img
+          <Image
             src="/fd36440db01cbba87d25446db3251733b3e469b8.png"
             alt="Majestic palace interior"
+            width={700}
+            height={700}
             className="w-full aspect-square rounded-tl-[100px] rounded-br-[100px] object-cover"
+            loading="lazy"
+            quality={85}
           />
 
           {/* Overlay paragraph with blur background */}
