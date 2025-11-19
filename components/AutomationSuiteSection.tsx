@@ -32,7 +32,7 @@ export default function AutomationSuiteSection() {
             <div className="absolute w-full h-32 -left-4 -top-10 rounded-tl-[110px] rounded-br-[110px] border border-white mix-blend-difference" />
             <div className="absolute w-full h-full left-6 top-6 rounded-tl-[80px] rounded-br-[80px] border border-white mix-blend-difference" />
             <img
-              src="/fd36440db01cbba87d25446db3251733b3e469b8.png"
+              src="/athena.png"
               alt="Athena AI Agent"
               className="w-full aspect-square rounded-tl-[100px] rounded-br-[100px] object-cover"
             />
@@ -103,7 +103,7 @@ export default function AutomationSuiteSection() {
             <div className="absolute w-full h-32 -right-4 -top-10 rounded-tr-[110px] rounded-bl-[110px] border border-white mix-blend-difference" />
             <div className="absolute w-full h-full right-6 top-6 rounded-tr-[80px] rounded-bl-[80px] border border-white mix-blend-difference" />
             <img
-              src="/99ecdfc1ca19abce9e30036f40aabc08fa126871.png"
+              src="/Apollo.png"
               alt="Apollo AI Agent"
               className="w-full aspect-square rounded-tr-[100px] rounded-bl-[100px] object-cover"
             />
@@ -116,7 +116,7 @@ export default function AutomationSuiteSection() {
             <div className="absolute w-full h-32 -left-4 -top-10 rounded-tl-[110px] rounded-br-[110px] border border-white mix-blend-difference" />
             <div className="absolute w-full h-full left-6 top-6 rounded-tl-[80px] rounded-br-[80px] border border-white mix-blend-difference" />
             <img
-              src="/fd36440db01cbba87d25446db3251733b3e469b8.png"
+              src="/aphrodite.png"
               alt="Aphrodites AI Agent"
               className="w-full aspect-square rounded-tl-[100px] rounded-br-[100px] object-cover"
             />
@@ -187,7 +187,7 @@ export default function AutomationSuiteSection() {
             <div className="absolute w-full h-32 -right-4 -top-10 rounded-tr-[110px] rounded-bl-[110px] border border-white mix-blend-difference" />
             <div className="absolute w-full h-full right-6 top-6 rounded-tr-[80px] rounded-bl-[80px] border border-white mix-blend-difference" />
             <img
-              src="/99ecdfc1ca19abce9e30036f40aabc08fa126871.png"
+              src="/artemis.png"
               alt="Artemis AI Agent"
               className="w-full aspect-square rounded-tr-[100px] rounded-bl-[100px] object-cover"
             />

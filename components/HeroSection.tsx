@@ -18,7 +18,7 @@ export default function HeroSection() {
         <div className="max-w-[1440px] mx-auto px-8 py-8 flex items-center justify-between">
           {/* Logo */}
           <div className="w-28 h-20">
-            <img src="/3a11b6572afa89cba912b80b99a894f4364b1ef9.svg" alt="Elysium Logo" className="w-full h-full" />
+            <img src="/logo.png" alt="Elysium Logo" className="w-full h-full" />
           </div>
 
           {/* Join Our Realm Button */}
@@ -66,7 +66,7 @@ export default function HeroSection() {
 
           {/* Decorative Wings Icon */}
           <div className="flex justify-center">
-            <img src="/3a79222fe987d2adacd450469e4248f871ab9251.svg" alt="Decorative wings" className="w-20 h-16" />
+            <img src="/logo.png" alt="Decorative wings" className="w-20 h-16" />
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ export default function FooterSection() {
           {/* Logo and Tagline */}
           <div className="max-w-[400px]">
             <div className="w-28 h-20 mb-6">
-              <img src="/3a11b6572afa89cba912b80b99a894f4364b1ef9.svg" alt="Elysium Logo" className="w-full h-full brightness-0 invert" />
+              <img src="/gld.png" alt="Elysium Logo" className="w-full h-full brightness-0 invert" />
             </div>
             <p className="text-stone-400 text-sm font-normal font-['Onest'] leading-6">
               Inspired by the Gods. Engineered for Agencies.
