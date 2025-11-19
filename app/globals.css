@@ -1,3 +1,6 @@
+/* Custom Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @import "tailwindcss";
 
 :root {
@@ -6,21 +9,47 @@
 }
 
 @theme inline {
+  /* Colors from design */
+  --color-stone-900: #1c1917;
+  --color-stone-500: #78716c;
+  --color-stone-400: #a8a29e;
+  --color-stone-300: #d6d3d1;
+  --color-stone-100: #f5f5f4;
+  --color-zinc-100: #f4f4f5;
+  --color-zinc-700: #3f3f46;
+  --color-neutral-700: #404040;
+  --color-yellow-600: #ca8a04;
+  --color-red-300: #fca5a5;
+  --color-orange-200: #fed7aa;
+  --color-rose-100: #ffe4e6;
+  --color-amber-100: #fef3c7;
+
+  /* Background colors */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Fonts */
+  --font-sans: 'Onest', system-ui, -apple-system, sans-serif;
+  --font-serif: 'ISABELLA_GRAND_Italic', Georgia, serif;
+  --font-timeless: 'Timeless', Georgia, serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+/* Custom font faces - These would need to be replaced with actual font files */
+@font-face {
+  font-family: 'ISABELLA_GRAND_Italic';
+  src: local('Georgia');
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Timeless';
+  src: local('Georgia');
+  font-weight: 400;
 }
