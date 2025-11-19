@@ -1,7 +1,7 @@
 export default function FooterSection() {
   return (
-    <footer className="relative w-full bg-stone-900 py-16">
-      <div className="max-w-[1216px] mx-auto px-8">
+    <footer className="relative w-full bg-stone-900 py-20">
+      <div className="max-w-[1440px] mx-auto px-8">
         {/* Top Section */}
         <div className="flex justify-between items-start mb-16">
           {/* Logo and Tagline */}

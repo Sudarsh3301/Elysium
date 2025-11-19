@@ -1,14 +1,15 @@
 export default function ComparisonSection() {
   return (
-    <section className="relative w-full py-24 bg-zinc-100">
-      {/* Section Title */}
-      <h2 className="text-center text-stone-900 text-5xl font-normal font-['ISABELLA_GRAND_Italic'] leading-[57.20px] mb-16">
-        What we take off your plate
-      </h2>
-      
-      {/* Comparison Table */}
-      <div className="max-w-[1216px] mx-auto">
-        <div className="grid grid-cols-2 gap-0">
+    <section className="relative w-full py-32 bg-zinc-100">
+      <div className="max-w-[1440px] mx-auto px-8">
+        {/* Section Title */}
+        <h2 className="text-center text-stone-900 text-5xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight mb-16">
+          What we take off your plate
+        </h2>
+
+        {/* Comparison Table */}
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-2 gap-0 shadow-lg">
           {/* Old Way Header */}
           <div className="bg-stone-900 rounded-tl-[40px] h-16 flex items-center px-10">
             <h3 className="text-white text-3xl font-normal font-['ISABELLA_GRAND_Italic']">Old Way</h3>
@@ -102,16 +103,17 @@ export default function ComparisonSection() {
               <span className="text-neutral-700 text-base font-normal font-['Onest']">Time-saving workflows with real-time customizable dashboards</span>
             </div>
           </div>
+          </div>
         </div>
-      </div>
-      
-      {/* CTA Button */}
-      <div className="flex justify-center mt-16">
-        <div className="relative">
-          <div className="absolute w-80 h-12 bg-stone-900 rounded-tr-[20px] rounded-bl-[20px] translate-x-[5px] translate-y-[6px]" />
-          <button type="button" className="relative w-80 h-12 bg-white rounded-tr-[20px] rounded-bl-[20px] border border-stone-900 flex items-center justify-center">
-            <span className="text-stone-900 text-base font-normal font-['Timeless']">See what your week looks like with Elysium</span>
-          </button>
+
+        {/* CTA Button */}
+        <div className="flex justify-center mt-16">
+          <div className="relative">
+            <div className="absolute w-80 h-12 bg-stone-900 rounded-tr-[20px] rounded-bl-[20px] translate-x-[5px] translate-y-[6px]" />
+            <button type="button" className="relative w-80 h-12 bg-white rounded-tr-[20px] rounded-bl-[20px] border border-stone-900 flex items-center justify-center hover:bg-zinc-50 transition-colors">
+              <span className="text-stone-900 text-base font-normal font-['Timeless']">See what your week looks like with Elysium</span>
+            </button>
+          </div>
         </div>
       </div>
     </section>
