@@ -1,10 +1,11 @@
+
 import Image from 'next/image';
 
 export default function AutomationSuiteSection() {
   return (
-    <section className="relative w-full py-32 bg-zinc-100">
+    <section className="relative w-full py-28 bg-zinc-100">
       <div className="max-w-[1440px] mx-auto px-8">
-        {/* Large Background Rectangle - Made Wider */}
+        {/* Large Background Rectangle - Beige Container */}
         <div className="absolute left-1/2 -translate-x-1/2 w-[calc(100%-40px)] max-w-[1400px] h-full top-0 bg-automationBg rounded-tl-[120px] rounded-br-[120px] pointer-events-none" />
 
         {/* Section Header */}
@@ -21,11 +22,155 @@ export default function AutomationSuiteSection() {
             <span className="text-stone-900 text-7xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight"> Automation Suite</span>
           </h2>
 
-          <p className="max-w-2xl mx-auto text-center">
+          <p className="max-w-2xl mx-auto text-center mb-16">
             <span className="text-neutral-700 text-base font-medium font-['Onest'] leading-relaxed">Created by industry veterans.</span>
             <br /><br />
             <span className="text-neutral-700 text-base font-normal font-['Onest'] leading-relaxed">Elysium is built with distinct purposes and programs to help modeling agencies stay ahead of the curve in the industry's digital evolution.</span>
           </p>
+
+          {/* Divider Image */}
+          <div className="flex justify-center max-w-full">
+            <img src="/divider.svg" alt="" className="max-w-full h-auto" />
+          </div>
+        </div>
+
+        {/* Comparison Table - "What we take off your plate" */}
+        <div className="relative z-10 mb-16">
+          <h3 className="text-center text-stone-900 text-5xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight mb-16">
+            What we take off your plate
+          </h3>
+
+          <div className="max-w-[1200px] mx-auto">
+            <div className="grid grid-cols-2 gap-6">
+              {/* Old Way Column */}
+              <div className="bg-automationBg rounded-tl-[40px] rounded-bl-[40px] overflow-hidden">
+                {/* Old Way Header */}
+                <div className="bg-stone-900 rounded-tl-[40px] h-16 flex items-center px-10">
+                  <h4 className="text-white text-3xl font-normal font-['ISABELLA_GRAND_Italic']">Old Way</h4>
+                </div>
+
+                {/* Old Way Rows */}
+                <div className="bg-white border-t border-stone-300 h-28 flex items-center px-10">
+                  <ul className="list-none">
+                    <li className="flex items-start gap-3">
+                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                      <span className="text-neutral-700 text-base font-normal font-['Onest']">15–20 bookings a day max</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-white border-t border-stone-300 h-16 flex items-center px-10">
+                  <ul className="list-none">
+                    <li className="flex items-start gap-3">
+                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                      <span className="text-neutral-700 text-base font-normal font-['Onest']">Manual model pitching, endless follow-ups</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-white border-t border-stone-300 h-16 flex items-center px-10">
+                  <ul className="list-none">
+                    <li className="flex items-start gap-3">
+                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                      <span className="text-neutral-700 text-base font-normal font-['Onest']">Manual model scouting</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-white border-t border-stone-300 h-16 flex items-center px-10">
+                  <ul className="list-none">
+                    <li className="flex items-start gap-3">
+                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                      <span className="text-neutral-700 text-base font-normal font-['Onest']">Manual agency content generation</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-white border-t border-stone-300 h-16 flex items-center px-10">
+                  <ul className="list-none">
+                    <li className="flex items-start gap-3">
+                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                      <span className="text-neutral-700 text-base font-normal font-['Onest']">Limited data tracking</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-white border-t border-stone-300 rounded-bl-[40px] h-16 flex items-center px-10">
+                  <ul className="list-none">
+                    <li className="flex items-start gap-3">
+                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                      <span className="text-neutral-700 text-base font-normal font-['Onest']">Agents drowning in emails</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* With Elysium Column */}
+              <div className="bg-automationBg rounded-tr-[40px] rounded-br-[40px] overflow-hidden">
+                {/* With Elysium Header */}
+                <div className="bg-yellow-600 rounded-tr-[40px] h-16 flex items-center px-10">
+                  <h4 className="text-white text-3xl font-normal font-['ISABELLA_GRAND_Italic']">With Elysium</h4>
+                </div>
+
+                {/* With Elysium Rows */}
+                <div className="bg-white border-t border-stone-300 h-28 flex items-center px-10">
+                  <ul className="list-none">
+                    <li className="flex items-start gap-3">
+                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                      <span className="text-neutral-700 text-base font-normal font-['Onest']">50+ bookings per day, same team</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-white border-t border-stone-300 h-16 flex items-center px-10">
+                  <ul className="list-none">
+                    <li className="flex items-start gap-3">
+                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                      <span className="text-neutral-700 text-base font-normal font-['Onest']">Auto-generated visual pitchback material, custom outreach tools</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-white border-t border-stone-300 h-16 flex items-center px-10">
+                  <ul className="list-none">
+                    <li className="flex items-start gap-3">
+                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                      <span className="text-neutral-700 text-base font-normal font-['Onest']">Smart-scouting tool for upcoming faces and rising star alerts</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-white border-t border-stone-300 h-16 flex items-center px-10">
+                  <ul className="list-none">
+                    <li className="flex items-start gap-3">
+                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                      <span className="text-neutral-700 text-base font-normal font-['Onest']">Curated newsletters, social media posts, editorials and more</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-white border-t border-stone-300 h-16 flex items-center px-10">
+                  <ul className="list-none">
+                    <li className="flex items-start gap-3">
+                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                      <span className="text-neutral-700 text-base font-normal font-['Onest']">In depth model data, agency analytics and industry trend reports</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-white border-t border-stone-300 rounded-br-[40px] h-16 flex items-center px-10">
+                  <ul className="list-none">
+                    <li className="flex items-start gap-3">
+                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                      <span className="text-neutral-700 text-base font-normal font-['Onest']">Time-saving workflows with real-time customizable dashboards</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* CTA Button */}
+          <div className="flex justify-center mt-12">
+            <button className="px-8 py-4 bg-stone-900 text-white text-lg font-medium font-['Onest'] rounded-lg hover:bg-stone-800 transition-colors">
+              See what your week looks like with Elysium
+            </button>
+          </div>
+        </div>
+
+        {/* Divider Image Before Agent Cards */}
+        <div className="relative z-10 flex justify-center mb-24">
+          <img src="/divider.svg" alt="" className="w-[400px] h-auto" />
         </div>
 
         {/* Athena - The Hot Leads Strategist */}

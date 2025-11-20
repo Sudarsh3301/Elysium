@@ -1,6 +1,6 @@
 export default function BenefitsSection() {
   return (
-    <section className="relative w-full py-32 bg-stone-900">
+    <section className="relative w-full py-32 mt-20 bg-stone-900">
       <div className="max-w-[1440px] mx-auto px-8">
         <div className="max-w-4xl mx-auto text-center">
           {/* Section Header */}

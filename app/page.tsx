@@ -1,10 +1,10 @@
 import HeroSection from "@/components/HeroSection";
 import ValuePropSection from "@/components/ValuePropSection";
 import AutomationSuiteSection from "@/components/AutomationSuiteSection";
-import ComparisonSection from "@/components/ComparisonSection";
-import StepsSection from "@/components/StepsSection";
 import BenefitsSection from "@/components/BenefitsSection";
 import PartnershipSection from "@/components/PartnershipSection";
+import DividerSection from "@/components/DividerSection";
+import StepsSection from "@/components/StepsSection";
 import CTASection from "@/components/CTASection";
 import FooterSection from "@/components/FooterSection";
 
@@ -14,10 +14,10 @@ export default function Home() {
       <HeroSection />
       <ValuePropSection />
       <AutomationSuiteSection />
-      <ComparisonSection />
-      <StepsSection />
       <BenefitsSection />
       <PartnershipSection />
+      <DividerSection />
+      <StepsSection />
       <CTASection />
       <FooterSection />
     </main>
