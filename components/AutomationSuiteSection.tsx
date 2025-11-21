@@ -11,11 +11,13 @@ export default function AutomationSuiteSection() {
         {/* Section Header */}
         <div className="relative z-10 text-center mb-24">
           {/* Decorative Lines */}
-          <div className="relative flex items-center justify-center mb-12">
+          {/* <div className="relative flex items-center justify-center mb-12">
             <div className="absolute left-1/2 -translate-x-full w-[360px] h-px bg-stone-900" />
             <div className="absolute left-1/2 w-[360px] h-px bg-stone-900" />
+          </div> */}
+          <div className="flex justify-center max-w-full">
+            <img src="/divider.svg" alt="" className="max-w-full h-auto" />
           </div>
-
           <h2 className="max-w-3xl mx-auto text-center mb-8">
             <span className="text-stone-900 text-7xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight">Meet the </span>
             <span className="text-stone-500 text-7xl font-normal font-['ISABELLA_GRAND_Italic'] uppercase leading-tight">Elysium</span>
@@ -170,9 +172,9 @@ export default function AutomationSuiteSection() {
 
         {/* Divider Image Before Agent Cards */}
         <div className="relative z-10 flex justify-center mb-24">
-          <img src="/divider.svg" alt="" className="w-[400px] h-auto" />
+          <img src="/divider.svg" alt="" className="max-w-full h-auto" />
         </div>
-
+         
         {/* Athena - The Hot Leads Strategist */}
         <div className="relative z-10 grid grid-cols-2 gap-16 items-center mb-32">
           <div className="relative">
