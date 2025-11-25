@@ -238,10 +238,20 @@ export default function AutomationSuiteSection() {
 
           {/* CTA Button */}
           <div className="flex justify-center mt-8 sm:mt-10 lg:mt-12">
-            <button type="button" className="w-full max-w-sm sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-stone-900 text-white text-base sm:text-lg font-medium font-['Onest'] rounded-lg hover:bg-stone-800 transition-colors">
-              See what your week looks like with Elysium
-            </button>
-          </div>
+  <div className="relative inline-block w-full max-w-sm sm:w-auto">
+    <div className="absolute w-full h-full bg-stone-900 rounded-tr-[20px] rounded-bl-[20px] translate-x-[4px] translate-y-[4px] sm:translate-x-[6px] sm:translate-y-[6px]" />
+    
+    <button 
+      type="button" 
+      className="relative w-full sm:w-auto px-10 sm:px-12 py-4 sm:py-5 bg-zinc-100 rounded-tr-[20px] rounded-bl-[20px] border border-stone-900 flex items-center justify-center hover:bg-white transition-colors"
+    >
+      <span className="text-stone-900 text-sm sm:text-base font-normal font-['Onest']">
+        See what your week looks like with Elysium
+      </span>
+    </button>
+  </div>
+</div>
+
         </div>
 
         {/* Divider Image Before Agent Cards */}
