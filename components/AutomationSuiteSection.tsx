@@ -81,8 +81,8 @@ export default function AutomationSuiteSection() {
 
             {/* With Elysium - Mobile */}
             <div className="bg-automationBg rounded-[30px] overflow-hidden">
-              <div className="bg-yellow-600 rounded-t-[30px] h-14 flex items-center px-6">
-                <h4 className="text-white text-2xl font-normal font-['ISABELLA_GRAND_Italic']">With Elysium</h4>
+              <div className="bg-[rgba(176,144,61,1)] rounded-t-[30px] h-14 flex items-center px-6">
+<h4 className="text-white text-2xl font-normal font-['ISABELLA_GRAND_Italic']">With Elysium</h4>
               </div>
               <div className="bg-white border-t border-stone-300 py-4 px-6">
                 <ul className="list-none space-y-3">

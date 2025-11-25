@@ -72,7 +72,7 @@ export default function HeroSection() {
 
           {/* Decorative Wings Icon */}
           <div className="flex justify-center w-full px-4 sm:px-6 md:px-8">
-            <img src="/logo-div.svg" alt="Decorative wings" className="w-full max-w-15xl h-auto" />
+            <img src="/logo-div.svg" alt="Decorative wings" className="w-full max-w-10xl h-auto" />
           </div>
         </div>
       </div>

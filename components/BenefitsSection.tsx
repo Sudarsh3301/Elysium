@@ -1,6 +1,7 @@
 export default function BenefitsSection() {
   return (
-    <section className="relative w-full py-32 mt-20 bg-stone-900">
+    <section className="relative w-full py-32 mt-20 bg-[rgb(33,34,32)]">
+
       <div className="max-w-[1440px] mx-auto px-8">
         <div className="max-w-4xl mx-auto text-center">
           {/* Section Header */}
@@ -22,7 +23,7 @@ export default function BenefitsSection() {
               {/* Benefit 1 - Top Left */}
               <div className="text-left">
                 <div className="flex items-start gap-4 mb-3">
-                  <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                  <img src="/ben.svg" alt="" className="w-50 h-6 mt-1 flex-shrink-1" />
                   <h3 className="text-white text-2xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight">No learning curve</h3>
                 </div>
                 <p className="text-white text-base font-normal font-['Onest'] leading-relaxed pl-9">
@@ -33,7 +34,7 @@ export default function BenefitsSection() {
               {/* Benefit 2 - Top Right */}
               <div className="text-left">
                 <div className="flex items-start gap-4 mb-3">
-                  <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                  <img src="/ben.svg" alt="" className="w-50 h-6 mt-1 flex-shrink-1" />
                   <h3 className="text-white text-2xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight">Your brand, your clients</h3>
                 </div>
                 <p className="text-white text-base font-normal font-['Onest'] leading-relaxed pl-9">
@@ -47,8 +48,7 @@ export default function BenefitsSection() {
               {/* Benefit 3 - Bottom Left */}
               <div className="text-left">
                 <div className="flex items-start gap-4 mb-3">
-                  <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
-                  <h3 className="text-white text-2xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight">Real money</h3>
+                  <img src="/ben.svg" alt="" className="w-50 h-6 mt-1 flex-shrink-1" /><h3 className="text-white text-2xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight">Real money</h3>
                 </div>
                 <p className="text-white text-base font-normal font-['Onest'] leading-relaxed pl-9">
                   More bookings, less overhead, higher margins.
@@ -58,8 +58,7 @@ export default function BenefitsSection() {
               {/* Benefit 4 - Bottom Right */}
               <div className="text-left">
                 <div className="flex items-start gap-4 mb-3">
-                  <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
-                  <h3 className="text-white text-2xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight">Models love it too</h3>
+                  <img src="/ben.svg" alt="" className="w-50 h-6 mt-1 flex-shrink-1" /><h3 className="text-white text-2xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight">Models love it too</h3>
                 </div>
                 <p className="text-white text-base font-normal font-['Onest'] leading-relaxed pl-9">
                   They receive more booking opportunities and better earning potential.

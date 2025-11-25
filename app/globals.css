@@ -33,3 +33,32 @@
     font-family: 'Onest', system-ui, -apple-system, sans-serif;
   }
 }
+
+/* Custom Step Components */
+@layer components {
+  .step-number {
+    @apply font-normal font-['ISABELLA_GRAND_Italic'];
+    @apply translate-y-[2px];
+    font-size: 80px;
+    line-height: 100%;
+    font-weight: 400;
+    color: rgba(212, 178, 150, 1);
+  }
+
+  .step-heading {
+    @apply font-normal font-['ISABELLA_GRAND_Italic'];
+    font-size: 32px;
+    line-height: 100%;
+    font-weight: 400;
+    color: #000;
+  }
+
+  .step-body {
+    @apply font-normal font-['Onest'];
+    @apply text-neutral-700;
+    @apply max-w-[540px];
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 12px;
+  }
+}
