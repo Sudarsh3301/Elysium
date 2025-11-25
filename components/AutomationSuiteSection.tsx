@@ -16,7 +16,11 @@ export default function AutomationSuiteSection() {
           </div>
           <h2 className="max-w-3xl mx-auto text-center mb-6 sm:mb-8 px-4 sm:px-0">
             <span className="text-stone-900 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight">Meet the </span>
-            <span className="text-stone-500 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-normal font-['ISABELLA_GRAND_Italic'] uppercase leading-tight">Elysium</span>
+            {/* <span className="text-stone-500 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-normal font-['ISABELLA_GRAND_Italic'] uppercase leading-tight">Elysium</span> */}
+            <span className="text-[rgba(150,120,104,1)] italic text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-normal font-['ISABELLA_GRAND_Italic'] uppercase leading-tight">
+  Elysium
+</span>
+
             <span className="text-stone-900 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight"> Automation Suite</span>
           </h2>
 

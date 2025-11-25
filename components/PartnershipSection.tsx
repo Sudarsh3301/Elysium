@@ -7,7 +7,10 @@ export default function PartnershipSection() {
         {/* Left Column - Heading and Bullet List */}
         <div>
           <h2 className="mb-12">
-            <span className="text-stone-500 text-6xl font-normal font-['ISABELLA_GRAND_Italic'] leading-[70.40px]">We're partners</span>
+            <span className="text-[rgba(150,120,104,1)] text-6xl font-normal font-['ISABELLA_GRAND_Italic'] leading-[70.40px]">
+  We're partners
+</span>
+
             <span className="text-stone-900 text-6xl font-normal font-['ISABELLA_GRAND_Italic'] leading-[70.40px]">, not competition</span>
           </h2>
 

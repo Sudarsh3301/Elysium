@@ -1,6 +1,6 @@
 export default function ValuePropSection() {
   return (
-    <section className="relative w-full py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 bg-zinc-100">
+    <section className="relative w-full pt-8 pb-16 sm:pt-12 sm:pb-20 md:pb-24 lg:pb-28 xl:pb-32 bg-zinc-100">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Heading */}
         <h2 className="max-w-4xl mx-auto text-center text-stone-900 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight mb-8 sm:mb-10 md:mb-12 xl:mb-16">

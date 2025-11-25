@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full min-h-screen bg-zinc-100 overflow-hidden flex items-center justify-center">
+    <section className="relative w-full bg-zinc-100 overflow-hidden flex items-center justify-center py-20 sm:py-24 md:py-32">
       {/* Cloud Background Image */}
       <div className="absolute inset-0 w-full h-full">
         <Image
@@ -17,7 +17,7 @@ export default function HeroSection() {
       </div>
 
       {/* Gradient Overlay at Bottom */}
-      <div className="absolute left-0 bottom-0 w-full h-64 sm:h-96 bg-gradient-to-t from-zinc-100 to-transparent pointer-events-none" />
+      <div className="absolute left-0 bottom-0 w-full h-48 sm:h-64 bg-gradient-to-t from-zinc-100 to-transparent pointer-events-none" />
 
       {/* Header Navigation */}
       <div className="absolute top-0 left-0 right-0 z-20">
@@ -71,10 +71,8 @@ export default function HeroSection() {
           </p>
 
           {/* Decorative Wings Icon */}
-          <div className="flex justify-center">
-            <div className="w-16 h-12 sm:w-20 sm:h-16 relative">
-              <Image src="/logo.png" alt="Decorative wings" fill className="object-contain" loading="lazy" sizes="(max-width: 640px) 64px, 80px" />
-            </div>
+          <div className="flex justify-center w-full px-4 sm:px-6 md:px-8">
+            <img src="/logo-div.svg" alt="Decorative wings" className="w-full max-w-15xl h-auto" />
           </div>
         </div>
       </div>
