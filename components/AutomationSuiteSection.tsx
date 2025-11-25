@@ -1,6 +1,3 @@
-
-import Image from 'next/image';
-
 export default function AutomationSuiteSection() {
   return (
     <section className="relative w-full py-16 sm:py-20 md:py-24 lg:py-28 bg-zinc-100">
@@ -264,14 +261,13 @@ export default function AutomationSuiteSection() {
           <div className="relative order-2 lg:order-1">
             <div className="hidden md:block absolute w-full h-32 -left-4 -top-10 rounded-tl-[110px] rounded-br-[110px] border border-white mix-blend-difference" />
             <div className="hidden md:block absolute w-full h-full left-6 top-6 rounded-tl-[80px] rounded-br-[80px] border border-white mix-blend-difference" />
-            <Image
-              src="/Athena.png"
-              alt="Athena AI Agent"
-              width={600}
-              height={600}
+            <video
+              src="/Athena (1).mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
               className="w-full aspect-square rounded-tl-[60px] rounded-br-[60px] md:rounded-tl-[100px] md:rounded-br-[100px] object-cover"
-              loading="lazy"
-              quality={85}
             />
           </div>
 
@@ -339,14 +335,13 @@ export default function AutomationSuiteSection() {
           <div className="relative order-2">
             <div className="hidden md:block absolute w-full h-32 -right-4 -top-10 rounded-tr-[110px] rounded-bl-[110px] border border-white mix-blend-difference" />
             <div className="hidden md:block absolute w-full h-full right-6 top-6 rounded-tr-[80px] rounded-bl-[80px] border border-white mix-blend-difference" />
-            <Image
-              src="/Apollo.png"
-              alt="Apollo AI Agent"
-              width={600}
-              height={600}
+            <video
+              src="/Apollo (1).mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
               className="w-full aspect-square rounded-tr-[60px] rounded-bl-[60px] md:rounded-tr-[100px] md:rounded-bl-[100px] object-cover"
-              loading="lazy"
-              quality={85}
             />
           </div>
         </div>
@@ -356,14 +351,13 @@ export default function AutomationSuiteSection() {
           <div className="relative order-2 lg:order-1">
             <div className="hidden md:block absolute w-full h-32 -left-4 -top-10 rounded-tl-[110px] rounded-br-[110px] border border-white mix-blend-difference" />
             <div className="hidden md:block absolute w-full h-full left-6 top-6 rounded-tl-[80px] rounded-br-[80px] border border-white mix-blend-difference" />
-            <Image
-              src="/Aphrodite.png"
-              alt="Aphrodites AI Agent"
-              width={600}
-              height={600}
+            <video
+              src="/Aphrodite (1).mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
               className="w-full aspect-square rounded-tl-[60px] rounded-br-[60px] md:rounded-tl-[100px] md:rounded-br-[100px] object-cover"
-              loading="lazy"
-              quality={85}
             />
           </div>
 
@@ -431,14 +425,13 @@ export default function AutomationSuiteSection() {
           <div className="relative order-2">
             <div className="hidden md:block absolute w-full h-32 -right-4 -top-10 rounded-tr-[110px] rounded-bl-[110px] border border-white mix-blend-difference" />
             <div className="hidden md:block absolute w-full h-full right-6 top-6 rounded-tr-[80px] rounded-bl-[80px] border border-white mix-blend-difference" />
-            <Image
-              src="/Artemis.png"
-              alt="Artemis AI Agent"
-              width={600}
-              height={600}
+            <video
+              src="/Artemis (1).mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
               className="w-full aspect-square rounded-tr-[60px] rounded-bl-[60px] md:rounded-tr-[100px] md:rounded-bl-[100px] object-cover"
-              loading="lazy"
-              quality={85}
             />
           </div>
         </div>
