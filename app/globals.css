@@ -61,4 +61,9 @@
     line-height: 150%;
     margin-top: 12px;
   }
+  .star-icon {
+  width: 24px;
+  height: 24px;
+}
+
 }

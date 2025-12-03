@@ -2,15 +2,15 @@ export default function CTASection() {
   return (
     <section className="relative w-full py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 bg-[rgba(227,217,201,1)] overflow-hidden">
 
-      {/* Concentric Circles */}
-      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none">
-        <div className="absolute w-[300px] sm:w-[500px] md:w-[700px] lg:w-[1046px] h-[300px] sm:h-[500px] md:h-[700px] lg:h-[1046px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border border-zinc-700/15" />
-        <div className="absolute w-[230px] sm:w-[380px] md:w-[530px] lg:w-[795px] h-[230px] sm:h-[380px] md:h-[530px] lg:h-[795px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border border-zinc-700/25" />
-        <div className="absolute w-[175px] sm:w-[290px] md:w-[405px] lg:w-[607px] h-[175px] sm:h-[290px] md:h-[405px] lg:h-[607px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border border-zinc-700/40" />
-      </div>
+  <img
+    src="/star_circle.svg"
+    alt="decor"
+    className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none max-w-none w-[1100px] h-auto opacity-95"
+  />
 
-      {/* Content */}
-      <div className="relative z-10 max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+  {/* CONTENT */}
+  <div className="relative z-10 max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="mb-6 sm:mb-8">
             <span className="text-[rgba(27,28,26,1)] text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-normal font-['ISABELLA_GRAND_Italic'] leading-tight"> Grow 

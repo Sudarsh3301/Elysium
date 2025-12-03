@@ -126,7 +126,7 @@ export default function AutomationSuiteSection() {
                 <div className="bg-white border-t border-stone-300 h-24 lg:h-28 flex items-center px-6 lg:px-10">
                   <ul className="list-none">
                     <li className="flex items-start gap-3">
-                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                     <img src="/bullet.svg" alt="" className="w-3 h-3 mt-1 flex-shrink-0" />
                       <span className="text-neutral-700 text-sm lg:text-base font-normal font-['Onest']">15–20 bookings a day max</span>
                     </li>
                   </ul>
@@ -134,7 +134,7 @@ export default function AutomationSuiteSection() {
                 <div className="bg-white border-t border-stone-300 h-14 lg:h-16 flex items-center px-6 lg:px-10">
                   <ul className="list-none">
                     <li className="flex items-start gap-3">
-                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                     <img src="/bullet.svg" alt="" className="w-3 h-3 mt-1 flex-shrink-0" />
                       <span className="text-neutral-700 text-sm lg:text-base font-normal font-['Onest']">Manual model pitching, endless follow-ups</span>
                     </li>
                   </ul>
@@ -142,7 +142,7 @@ export default function AutomationSuiteSection() {
                 <div className="bg-white border-t border-stone-300 h-14 lg:h-16 flex items-center px-6 lg:px-10">
                   <ul className="list-none">
                     <li className="flex items-start gap-3">
-                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                     <img src="/bullet.svg" alt="" className="w-3 h-3 mt-1 flex-shrink-0" />
                       <span className="text-neutral-700 text-sm lg:text-base font-normal font-['Onest']">Manual model scouting</span>
                     </li>
                   </ul>
@@ -150,7 +150,7 @@ export default function AutomationSuiteSection() {
                 <div className="bg-white border-t border-stone-300 h-14 lg:h-16 flex items-center px-6 lg:px-10">
                   <ul className="list-none">
                     <li className="flex items-start gap-3">
-                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                     <img src="/bullet.svg" alt="" className="w-3 h-3 mt-1 flex-shrink-0" />
                       <span className="text-neutral-700 text-sm lg:text-base font-normal font-['Onest']">Manual agency content generation</span>
                     </li>
                   </ul>
@@ -158,7 +158,7 @@ export default function AutomationSuiteSection() {
                 <div className="bg-white border-t border-stone-300 h-14 lg:h-16 flex items-center px-6 lg:px-10">
                   <ul className="list-none">
                     <li className="flex items-start gap-3">
-                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                     <img src="/bullet.svg" alt="" className="w-3 h-3 mt-1 flex-shrink-0" />
                       <span className="text-neutral-700 text-sm lg:text-base font-normal font-['Onest']">Limited data tracking</span>
                     </li>
                   </ul>
@@ -166,7 +166,8 @@ export default function AutomationSuiteSection() {
                 <div className="bg-white border-t border-stone-300 rounded-bl-[40px] h-14 lg:h-16 flex items-center px-6 lg:px-10">
                   <ul className="list-none">
                     <li className="flex items-start gap-3">
-                      <img src="/tick.svg" alt="" className="w-5 h-5 mt-1 flex-shrink-0" />
+                      <img src="/bullet.svg" alt="" className="w-3 h-3 mt-1 flex-shrink-0" />
+
                       <span className="text-neutral-700 text-sm lg:text-base font-normal font-['Onest']">Agents drowning in emails</span>
                     </li>
                   </ul>
@@ -235,18 +236,21 @@ export default function AutomationSuiteSection() {
 
           {/* CTA Button */}
           <div className="flex justify-center mt-8 sm:mt-10 lg:mt-12">
-  <div className="relative inline-block w-full max-w-sm sm:w-auto">
-    <div className="absolute w-full h-full bg-stone-900 rounded-tr-[20px] rounded-bl-[20px] translate-x-[4px] translate-y-[4px] sm:translate-x-[6px] sm:translate-y-[6px]" />
-    
-    <button 
-      type="button" 
-      className="relative w-full sm:w-auto px-10 sm:px-12 py-4 sm:py-5 bg-zinc-100 rounded-tr-[20px] rounded-bl-[20px] border border-stone-900 flex items-center justify-center hover:bg-white transition-colors"
-    >
-      <span className="text-stone-900 text-sm sm:text-base font-normal font-['Onest']">
-        See what your week looks like with Elysium
-      </span>
-    </button>
-  </div>
+<div className="relative inline-block">
+  {/* SHADOW */}
+  <div className="absolute inset-0 translate-x-[6px] translate-y-[6px] bg-stone-900 rounded-tr-[20px] rounded-bl-[20px]" />
+
+  {/* BUTTON */}
+  <button 
+    type="button" 
+    className="relative inline-flex items-center justify-center px-10 sm:px-12 py-4 sm:py-5 bg-zinc-100 border border-stone-900 rounded-tr-[20px] rounded-bl-[20px] hover:bg-white transition-colors whitespace-nowrap"
+  >
+    <span className="text-stone-900 text-sm sm:text-base font-normal font-['Onest']">
+      See what your week looks like with Elysium
+    </span>
+  </button>
+</div>
+
 </div>
 
         </div>
@@ -382,12 +386,19 @@ export default function AutomationSuiteSection() {
               </li>
             </ul>
 
-            <div className="relative inline-block w-full lg:w-auto">
-              <div className="absolute w-full lg:w-96 h-12 bg-stone-900 rounded-tr-[20px] rounded-bl-[20px] translate-x-[4px] translate-y-[4px] sm:translate-x-[6px] sm:translate-y-[6px]" />
-              <button type="button" className="relative w-full lg:w-96 h-12 bg-zinc-100 rounded-tr-[20px] rounded-bl-[20px] border border-stone-900 flex items-center justify-center hover:bg-white transition-colors">
-                <span className="text-stone-900 text-sm sm:text-base font-normal font-['Onest']">Keep your clients, press, and partners enchanted.</span>
-              </button>
-            </div>
+            <div className="relative inline-block">
+  <div className="absolute inset-0 translate-x-[6px] translate-y-[6px] bg-stone-900 rounded-tr-[20px] rounded-bl-[20px]" />
+
+  <button 
+    type="button" 
+    className="relative inline-flex items-center justify-center px-8 py-3 bg-zinc-100 border border-stone-900 rounded-tr-[20px] rounded-bl-[20px] whitespace-nowrap"
+  >
+    <span className="text-stone-900 text-sm sm:text-base font-normal font-['Onest']">
+      Keep your clients, press, and partners enchanted.
+    </span>
+  </button>
+</div>
+
           </div>
         </div>
 
